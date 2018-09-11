@@ -1,0 +1,160 @@
+
+  @import url('https://fonts.googleapis.com/css?family=Poppins');
+  @import url('https://fonts.googleapis.com/css?family=Oswald');
+  
+  .full-screen {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .menus{
+    background-color: #6623C2;
+    text-align: center;
+  }
+
+  .submenus{    
+    background-color: #7E45FF;
+    padding: 45px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+  }
+
+  .submenus2{    
+    background-color: rgb(228, 228, 228);
+    padding: 45px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+  }
+  
+  #cards{
+    margin-left: 50px;
+    margin-bottom: 30px;
+  }
+
+  .submenus h2{
+    color: white;
+    background-color: #6537CC;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 50px;
+    padding: 15px;
+    font-size: 70px;
+    border-radius: 40px;
+  }
+
+  .submenus h4{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 50px;
+  }
+
+  .menus h1{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    padding: 15px;
+  }
+
+  /* ==== menu retrátil madlyluv.com ==== */
+.menu_mluv_retratil {
+  width: 100%; 
+  height: 65px; 
+  display: block; 
+  background: #6623C2; 
+  position: fixed; 
+  top: 0; 
+  z-index: 100;  
+  transition:All 0.5s ease;   
+  
+}
+
+.menu_mluv_retratil.esconder {
+  top: -65px; 
+  position: fixed;
+}
+
+.menu_mluv_retratil nav {
+  margin: 0 20px; 
+  padding: 0; 
+  list-style: none; 
+  float: left;
+}
+
+.menu_mluv_retratil nav a {
+  line-height: 65px; 
+  color: #fff; 
+  text-transform: uppercase; 
+  padding: 0 10px; 
+  text-decoration: none;
+}
+
+.menu_mluv_retratil nav a:hover {
+  color: #E26767;
+}
+
+.menu_mluv_retratil a.mostra-esconde-menu {
+  width: 98px; 
+  height: 25px; 
+  display: block; 
+  line-height: 25px; 
+  background: rgba(0, 0, 0, 0.75); 
+  position: absolute; 
+  top: 65px; 
+  right: 20px; 
+  font-size: 9px; 
+  font-family: 'Arial', sans-serif; 
+  font-weight: 500; 
+  letter-spacing: 2px; 
+  text-transform: uppercase; 
+  text-align: center; 
+  color: #fff; 
+  z-index: 100; 
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.35); 
+  text-decoration: none; 
+  transition:All 0.5s ease; 
+  
+}
+
+.menu_mluv_retratil a.mostra-esconde-menu.acao-menu {
+  margin-top: -65px;
+}
+
+.cartao{
+  background-color: white;
+  width: 200px;
+  height: 150px;
+  margin: 20px;
+  border-radius: 10px; 
+  box-shadow: 0px 0px 17px rgba(0, 0, 0, 0.062); 
+}
+
+.cartao2{
+  background-color: white;
+  padding-top: 15px;
+  font-size: 22px;
+  width: 100%;
+  height: 200px;
+  margin: 20px;
+  border-radius: 10px; 
+  box-shadow: 0px 0px 17px rgba(0, 0, 0, 0.062); 
+  font-family: 'Poppins', sans-serif;
+  
+}
+
+#ico{
+  font-size: 5em;
+  margin-top: 30px;
+  color: darkgray;
+  transition: 0.3s;
+}
+
+#ico2{
+  font-size: 3em;
+  margin-top: 30px;
+  color: darkgray;
+  transition: 0.3s;
+}
+
+#ico:hover{
+  color: rgb(0, 0, 0);
+  transition: 0.3s;
+}
