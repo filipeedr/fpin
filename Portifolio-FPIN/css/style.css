@@ -13,6 +13,10 @@
     text-align: center;
   }
 
+  .menus .parceiros{
+    background-image: url("img/default-user.png");
+  }
+
   .submenus{    
     background-color: #7E45FF;
     padding: 45px;
@@ -157,4 +161,42 @@
 #ico:hover{
   color: rgb(0, 0, 0);
   transition: 0.3s;
+}
+
+footer{
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+
+footer .rs{
+  text-align: center;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  font-size: 2em;
+  background-color: #872FFF;
+}
+
+footer .directs{
+  padding: 19px;
+  background-color: #6623C2;
+}
+
+a:link {
+  color: rgb(255, 255, 255);
+}
+
+/* link que foi visitado */
+a:visited {
+   color: rgb(255, 255, 255);
+}
+
+/* mouse over */
+a:hover {
+   color: #d3d3d3;
+}
+
+/* link selecionado */
+a:active {
+   color: rgb(255, 255, 255);
 }

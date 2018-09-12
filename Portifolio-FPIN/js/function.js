@@ -55,17 +55,6 @@ $('.counter-up').each(function() {
 
 /////////////////SCROLL
 
-$(window).scroll(function () {
-  if ($(this).scrollTop() > 50) {
-      $('.navbar').css("background-color", "#ffff")
-  } else {
-      $('.navbar').css("background-color", "#ffff")
-  }
-});
-
-///////////////////
-
-///////// MENU
 
 $(document).ready(function() {
   // mostra esconde menu
@@ -83,3 +72,18 @@ $(document).ready(function() {
   });
 
   //////////////
+
+  $(document).ready(function() {
+    // mostra esconde menu
+      $("a.modeon").click(function(){
+          $(".modeon").toggleClass('esconder');     
+      }); 
+    });
+    // menu ao rolar
+    $(window).bind('scroll', function () {
+          if ($(window).scrollTop() < 450) {
+            $(".modeon").addClass('esconder');
+          } else if ($(window).scrollTop() > 450) {
+            $(".modeon").removeClass('esconder');         
+          }
+    });
