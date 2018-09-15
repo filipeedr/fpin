@@ -10,11 +10,8 @@
 
   .menus{
     background-color: #6623C2;
-    text-align: center;
-  }
-
-  .menus .parceiros{
-    background-image: url("img/default-user.png");
+    text-align: center; 
+    
   }
 
   .submenus{    
@@ -22,6 +19,7 @@
     padding: 45px;
     padding-top: 150px;
     padding-bottom: 150px;
+    
   }
 
   .submenus2{    
@@ -55,7 +53,10 @@
   .menus h1{
     color: white;
     font-family: 'Oswald', sans-serif;
-    padding: 15px;
+    
+    height: 300px;
+    padding-top: 125px;
+    
   }
 
   /* ==== menu retrátil madlyluv.com ==== */
@@ -183,12 +184,12 @@ footer .directs{
 }
 
 a:link {
-  color: rgb(255, 255, 255);
+  color: rgb(167, 167, 167);
 }
 
 /* link que foi visitado */
 a:visited {
-   color: rgb(255, 255, 255);
+   color: rgb(167, 167, 167);
 }
 
 /* mouse over */
@@ -199,4 +200,28 @@ a:hover {
 /* link selecionado */
 a:active {
    color: rgb(255, 255, 255);
+}
+
+#developers{
+  background-image: url("../img/dev.jpg");
+  background-color: #636363;
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+
+ 
+
+  
+}
+
+#parceiros{
+  background-image: url("../img/achievement-agreement-body-language-1179804.jpg");
+  background-color: #636363;
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
